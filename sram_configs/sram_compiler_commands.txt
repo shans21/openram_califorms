@@ -1,0 +1,5 @@
+python3 /home/sh4471/workplace/OpenRAM/compiler/../sram_compiler.py sram_config_32_128.py -v
+python3 /home/sh4471/workplace/OpenRAM/compiler/../sram_compiler.py sram_config_32_256.py -v
+python3 /home/sh4471/workplace/OpenRAM/compiler/../sram_compiler.py sram_config_32_512.py -v
+python3 /home/sh4471/workplace/OpenRAM/compiler/../sram_compiler.py sram_config_32_1024.py -v
+python3 /home/sh4471/workplace/OpenRAM/compiler/../sram_compiler.py sram_config_32_2048.py -v

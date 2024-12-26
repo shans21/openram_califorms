@@ -1,0 +1,55 @@
+[2024-11-18 08:33:03.577341] |==============================================================================|
+[2024-11-18 08:33:03.577542] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-18 08:33:03.577602] |=========                                                            =========|
+[2024-11-18 08:33:03.577654] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-18 08:33:03.577688] |=========        Computer Science and Engineering Department         =========|
+[2024-11-18 08:33:03.577719] |=========            University of California Santa Cruz             =========|
+[2024-11-18 08:33:03.577748] |=========                                                            =========|
+[2024-11-18 08:33:03.577776] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-18 08:33:03.577804] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-18 08:33:03.577833] |=========                See LICENSE for license info                =========|
+[2024-11-18 08:33:03.577861] |==============================================================================|
+[2024-11-18 08:33:03.577897] ** Start: 11/18/2024 08:33:03
+[2024-11-18 08:33:03.577931] Technology: freepdk45
+[2024-11-18 08:33:03.577962] Total size: 65536 bits
+[2024-11-18 08:33:03.613107] WARNING: file globals.py: line 640: Characterizing large memories (65536) will have a large run-time.
+
+[2024-11-18 08:33:03.613192] Word size: 32
+Words: 2048
+Banks: 1
+[2024-11-18 08:33:03.613250] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-11-18 08:33:03.613297] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-18 08:33:03.613339] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-18 08:33:03.613380] Performing simulation-based characterization with Xyce
+[2024-11-18 08:33:03.613422] Trimming netlist to speed up characterization (trim_netlist=False to disable).
+[2024-11-18 08:33:03.613465] Words per row: None
+[2024-11-18 08:33:03.613514] Output files are: 
+[2024-11-18 08:33:03.613553] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lvs
+[2024-11-18 08:33:03.613590] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.sp
+[2024-11-18 08:33:03.613628] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.v
+[2024-11-18 08:33:03.613672] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lib
+[2024-11-18 08:33:03.613707] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.py
+[2024-11-18 08:33:03.613736] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.html
+[2024-11-18 08:33:03.613763] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.log
+[2024-11-18 08:33:03.613790] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lef
+[2024-11-18 08:33:03.613817] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.gds
+[2024-11-18 09:00:05.433612] ** Submodules: 1621.8 seconds
+[2024-11-18 09:00:05.458158] ** Placement: 0.0 seconds
+[2024-11-18 09:37:38.604650] ** Routing: 2253.1 seconds
+[2024-11-18 09:37:38.612194] ** Verification: 0.0 seconds
+[2024-11-18 09:37:38.612306] ** SRAM creation: 3875.0 seconds
+[2024-11-18 09:37:38.612358] SP: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.sp
+[2024-11-18 09:37:39.326062] ** Spice writing: 0.7 seconds
+[2024-11-18 09:37:39.326193] DELAY: Writing stimulus...
+[2024-11-18 09:37:42.134668] ** DELAY: 2.8 seconds
+[2024-11-18 09:37:42.821571] GDS: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.gds
+[2024-11-18 09:37:44.216046] ** GDS: 1.4 seconds
+[2024-11-18 09:37:44.216185] LEF: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lef
+[2024-11-18 09:37:44.229472] ** LEF: 0.0 seconds
+[2024-11-18 09:37:44.229565] LVS: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lvs.sp
+[2024-11-18 09:37:44.895761] ** LVS writing: 0.7 seconds
+[2024-11-18 09:37:44.895890] LIB: Characterizing... 
+[2024-11-18 16:56:45.736948] ERROR: file stimuli.py: line 421: Spice simulation error: /bin/bash -c 'source /home/sh4471/workplace/OpenRAM/miniconda/bin/activate && /home/sh4471/workplace/OpenRAM/miniconda/bin/mpirun -np 3 /home/sh4471/workplace/OpenRAM/miniconda/bin/Xyce -r /tmp/openram_sh4471_21686_temp/timing.raw -o /tmp/openram_sh4471_21686_temp/timing.lis /tmp/openram_sh4471_21686_temp/delay_stim.sp && conda deactivate'
+

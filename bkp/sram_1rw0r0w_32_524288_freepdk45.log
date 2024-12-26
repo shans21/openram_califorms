@@ -1,0 +1,41 @@
+[2024-11-18 21:36:28.970513] |==============================================================================|
+[2024-11-18 21:36:28.970706] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-18 21:36:28.970763] |=========                                                            =========|
+[2024-11-18 21:36:28.970799] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-18 21:36:28.970833] |=========        Computer Science and Engineering Department         =========|
+[2024-11-18 21:36:28.970864] |=========            University of California Santa Cruz             =========|
+[2024-11-18 21:36:28.970895] |=========                                                            =========|
+[2024-11-18 21:36:28.970945] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-18 21:36:28.970979] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-18 21:36:28.971008] |=========                See LICENSE for license info                =========|
+[2024-11-18 21:36:28.971037] |==============================================================================|
+[2024-11-18 21:36:28.971079] ** Start: 11/18/2024 21:36:28
+[2024-11-18 21:36:28.971117] Technology: freepdk45
+[2024-11-18 21:36:28.971152] Total size: 16777216 bits
+[2024-11-18 21:36:29.008173] WARNING: file globals.py: line 640: Characterizing large memories (16777216) will have a large run-time.
+
+[2024-11-18 21:36:29.008307] Word size: 32
+Words: 524288
+Banks: 1
+[2024-11-18 21:36:29.008353] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-11-18 21:36:29.008388] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-18 21:36:29.008420] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-18 21:36:29.008456] Performing simulation-based characterization with Xyce
+[2024-11-18 21:36:29.008489] Trimming netlist to speed up characterization (trim_netlist=False to disable).
+[2024-11-18 21:36:29.008522] Words per row: None
+[2024-11-18 21:36:29.008565] Output files are: 
+[2024-11-18 21:36:29.008595] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.lvs
+[2024-11-18 21:36:29.008624] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.sp
+[2024-11-18 21:36:29.008653] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.v
+[2024-11-18 21:36:29.008681] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.lib
+[2024-11-18 21:36:29.008709] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.py
+[2024-11-18 21:36:29.008740] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.html
+[2024-11-18 21:36:29.008770] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.log
+[2024-11-18 21:36:29.008798] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.lef
+[2024-11-18 21:36:29.008826] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_524288_freepdk45.gds
+[2024-11-18 21:36:29.025118] WARNING: file sram_config.py: line 160: Extremely large number of columns for 16-way maximum column mux.
+
+[2024-11-18 21:36:29.025493] ERROR: file sram_config.py: line 173: Number of words exceeds 2048
+

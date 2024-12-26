@@ -1,0 +1,134 @@
+VERSION 5.4 ;
+NAMESCASESENSITIVE ON ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+UNITS
+  DATABASE MICRONS 2000 ;
+END UNITS
+MACRO example_config_freepdk45
+   CLASS BLOCK ;
+   SIZE 33.24 BY 52.84 ;
+   SYMMETRY X Y R90 ;
+   PIN din0[0]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  16.8725 0.0 17.0125 0.14 ;
+      END
+   END din0[0]
+   PIN din0[1]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  19.7325 0.0 19.8725 0.14 ;
+      END
+   END din0[1]
+   PIN addr0[0]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal3 ;
+         RECT  0.0 40.78 0.14 40.92 ;
+      END
+   END addr0[0]
+   PIN addr0[1]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  10.585 52.7 10.725 52.84 ;
+      END
+   END addr0[1]
+   PIN addr0[2]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  11.44 52.7 11.58 52.84 ;
+      END
+   END addr0[2]
+   PIN addr0[3]
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  11.155 52.7 11.295 52.84 ;
+      END
+   END addr0[3]
+   PIN csb0
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal3 ;
+         RECT  0.0 4.25 0.14 4.39 ;
+      END
+   END csb0
+   PIN web0
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal3 ;
+         RECT  0.0 6.98 0.14 7.12 ;
+      END
+   END web0
+   PIN clk0
+      DIRECTION INPUT ;
+      PORT
+         LAYER metal4 ;
+         RECT  9.84 0.0 9.98 0.14 ;
+      END
+   END clk0
+   PIN dout0[0]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER metal3 ;
+         RECT  33.1 15.6275 33.24 15.7675 ;
+      END
+   END dout0[0]
+   PIN dout0[1]
+      DIRECTION OUTPUT ;
+      PORT
+         LAYER metal3 ;
+         RECT  33.1 15.3925 33.24 15.5325 ;
+      END
+   END dout0[1]
+   PIN vdd
+      DIRECTION INOUT ;
+      USE POWER ; 
+      SHAPE ABUTMENT ; 
+      PORT
+      END
+   END vdd
+   PIN gnd
+      DIRECTION INOUT ;
+      USE GROUND ; 
+      SHAPE ABUTMENT ; 
+      PORT
+      END
+   END gnd
+   OBS
+   LAYER  metal1 ;
+      RECT  0.14 0.14 33.1 52.7 ;
+   LAYER  metal2 ;
+      RECT  0.14 0.14 33.1 52.7 ;
+   LAYER  metal3 ;
+      RECT  0.14 41.06 0.28 52.7 ;
+      RECT  0.28 40.64 33.1 41.06 ;
+      RECT  0.28 41.06 33.1 52.7 ;
+      RECT  0.14 0.14 0.28 4.11 ;
+      RECT  0.14 4.53 0.28 6.84 ;
+      RECT  0.14 7.26 0.28 40.64 ;
+      RECT  0.28 0.14 32.96 15.4875 ;
+      RECT  0.28 15.4875 32.96 15.9075 ;
+      RECT  0.28 15.9075 32.96 40.64 ;
+      RECT  32.96 15.9075 33.1 40.64 ;
+      RECT  32.96 0.14 33.1 15.2525 ;
+   LAYER  metal4 ;
+      RECT  16.5925 0.42 17.2925 52.7 ;
+      RECT  17.2925 0.42 33.1 52.7 ;
+      RECT  17.2925 0.14 19.4525 0.42 ;
+      RECT  20.1525 0.14 33.1 0.42 ;
+      RECT  0.14 0.42 10.305 52.42 ;
+      RECT  0.14 52.42 10.305 52.7 ;
+      RECT  10.305 0.42 11.005 52.42 ;
+      RECT  11.005 0.42 16.5925 52.42 ;
+      RECT  11.86 52.42 16.5925 52.7 ;
+      RECT  0.14 0.14 9.56 0.42 ;
+      RECT  10.26 0.14 16.5925 0.42 ;
+   END
+END    example_config_freepdk45
+END    LIBRARY

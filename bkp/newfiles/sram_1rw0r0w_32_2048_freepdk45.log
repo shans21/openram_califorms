@@ -1,0 +1,53 @@
+[2024-11-17 17:39:31.801070] |==============================================================================|
+[2024-11-17 17:39:31.801217] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-17 17:39:31.801269] |=========                                                            =========|
+[2024-11-17 17:39:31.801305] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-17 17:39:31.801336] |=========        Computer Science and Engineering Department         =========|
+[2024-11-17 17:39:31.801365] |=========            University of California Santa Cruz             =========|
+[2024-11-17 17:39:31.801394] |=========                                                            =========|
+[2024-11-17 17:39:31.801422] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-17 17:39:31.801449] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-17 17:39:31.801476] |=========                See LICENSE for license info                =========|
+[2024-11-17 17:39:31.801502] |==============================================================================|
+[2024-11-17 17:39:31.801542] ** Start: 11/17/2024 17:39:31
+[2024-11-17 17:39:31.801575] Technology: freepdk45
+[2024-11-17 17:39:31.801605] Total size: 65536 bits
+[2024-11-17 17:39:31.837351] WARNING: file globals.py: line 640: Characterizing large memories (65536) will have a large run-time.
+
+[2024-11-17 17:39:31.837438] Word size: 32
+Words: 2048
+Banks: 1
+[2024-11-17 17:39:31.837480] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-11-17 17:39:31.837514] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-17 17:39:31.837550] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-17 17:39:31.837581] Performing simulation-based characterization with Xyce
+[2024-11-17 17:39:31.837610] Trimming netlist to speed up characterization (trim_netlist=False to disable).
+[2024-11-17 17:39:31.837641] Words per row: None
+[2024-11-17 17:39:31.837679] Output files are: 
+[2024-11-17 17:39:31.837712] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lvs
+[2024-11-17 17:39:31.837741] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.sp
+[2024-11-17 17:39:31.837772] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.v
+[2024-11-17 17:39:31.837800] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lib
+[2024-11-17 17:39:31.837828] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.py
+[2024-11-17 17:39:31.837855] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.html
+[2024-11-17 17:39:31.837882] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.log
+[2024-11-17 17:39:31.837909] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lef
+[2024-11-17 17:39:31.837937] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.gds
+[2024-11-17 18:08:36.306177] ** Submodules: 1744.5 seconds
+[2024-11-17 18:08:36.330666] ** Placement: 0.0 seconds
+[2024-11-17 18:46:17.118391] ** Routing: 2260.8 seconds
+[2024-11-17 18:46:17.125804] ** Verification: 0.0 seconds
+[2024-11-17 18:46:17.125926] ** SRAM creation: 4005.3 seconds
+[2024-11-17 18:46:17.125981] SP: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.sp
+[2024-11-17 18:46:17.849868] ** Spice writing: 0.7 seconds
+[2024-11-17 18:46:17.849989] DELAY: Writing stimulus...
+[2024-11-17 18:46:20.704501] ** DELAY: 2.9 seconds
+[2024-11-17 18:46:21.405411] GDS: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.gds
+[2024-11-17 18:46:22.779209] ** GDS: 1.4 seconds
+[2024-11-17 18:46:22.779334] LEF: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lef
+[2024-11-17 18:46:22.792448] ** LEF: 0.0 seconds
+[2024-11-17 18:46:22.792521] LVS: Writing to /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_32_2048_freepdk45.lvs.sp
+[2024-11-17 18:46:23.475474] ** LVS writing: 0.7 seconds
+[2024-11-17 18:46:23.475592] LIB: Characterizing... 

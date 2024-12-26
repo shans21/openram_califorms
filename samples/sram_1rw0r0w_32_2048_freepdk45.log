@@ -1,0 +1,34 @@
+[2024-11-17 17:21:01.741356] |==============================================================================|
+[2024-11-17 17:21:01.741552] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-17 17:21:01.741610] |=========                                                            =========|
+[2024-11-17 17:21:01.741650] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-17 17:21:01.741683] |=========        Computer Science and Engineering Department         =========|
+[2024-11-17 17:21:01.741713] |=========            University of California Santa Cruz             =========|
+[2024-11-17 17:21:01.741744] |=========                                                            =========|
+[2024-11-17 17:21:01.741773] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-17 17:21:01.741802] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-17 17:21:01.741830] |=========                See LICENSE for license info                =========|
+[2024-11-17 17:21:01.741857] |==============================================================================|
+[2024-11-17 17:21:01.741894] ** Start: 11/17/2024 17:21:01
+[2024-11-17 17:21:01.741929] Technology: freepdk45
+[2024-11-17 17:21:01.741960] Total size: 65536 bits
+[2024-11-17 17:21:01.741999] Word size: 32
+Words: 2048
+Banks: 1
+[2024-11-17 17:21:01.742032] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-11-17 17:21:01.742061] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-17 17:21:01.742089] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-17 17:21:01.742117] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-11-17 17:21:01.742147] Words per row: None
+[2024-11-17 17:21:01.742182] Output files are: 
+[2024-11-17 17:21:01.742211] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.lvs
+[2024-11-17 17:21:01.742239] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.sp
+[2024-11-17 17:21:01.742267] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.v
+[2024-11-17 17:21:01.742295] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.lib
+[2024-11-17 17:21:01.742322] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.py
+[2024-11-17 17:21:01.742350] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.html
+[2024-11-17 17:21:01.742391] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.log
+[2024-11-17 17:21:01.742420] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.lef
+[2024-11-17 17:21:01.742447] /home/sh4471/workplace/OpenRAM/samples/./sram_1rw0r0w_32_2048_freepdk45.gds

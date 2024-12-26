@@ -1,0 +1,62 @@
+[2024-11-19 18:17:38.750876] [openram.globals/init_openram]: Initializing OpenRAM...
+[2024-11-19 18:17:38.751055] [openram.globals/setup_paths]: OpenRAM source code found in /home/sh4471/workplace/OpenRAM/compiler
+[2024-11-19 18:17:38.751212] [openram.globals/setup_paths]: Temporary files saved in /tmp/openram_sh4471_47013_temp/
+[2024-11-19 18:17:38.751428] [openram.globals/read_config]: Configuration file is /home/sh4471/workplace/OpenRAM/./testconfig.py
+[2024-11-19 18:17:38.752182] [openram.globals/read_config]: Output saved in /home/sh4471/workplace/OpenRAM/./
+[2024-11-19 18:17:38.752448] [openram.globals/install_conda]: Creating conda setup...
+[2024-11-19 18:17:38.754001] [openram.globals/import_tech]: Tech directory found in /home/sh4471/workplace/OpenRAM/technology:/home/sh4471/anaconda3/lib/python3.12/site-packages/openram/technology
+[2024-11-19 18:17:38.754229] [openram.globals/import_tech]: Adding technology path: /home/sh4471/workplace/OpenRAM/technology
+[2024-11-19 18:17:38.754421] [openram.globals/import_tech]: Adding technology path: /home/sh4471/anaconda3/lib/python3.12/site-packages/openram/technology
+[2024-11-19 18:17:38.756538] [openram.globals/init_paths]: Creating temp directory: /tmp/openram_sh4471_47013_temp/
+[2024-11-19 18:17:38.845641] [openram.globals/setup_bitcell]: Using bitcell: bitcell_1port
+[2024-11-19 18:17:39.372299] [openram.characterizer/<module>]: Initializing characterizer...
+[2024-11-19 18:17:39.381084] [openram.characterizer/<module>]: Analytical model enabled.
+[2024-11-19 18:17:39.390422] [openram.verify/<module>]: Initializing verify...
+[2024-11-19 18:17:39.399020] [openram.verify/<module>]: LVS/DRC/PEX disabled.
+[2024-11-19 18:17:39.399516] [openram.globals/setup_bitcell]: Using bitcell: bitcell_1port
+[2024-11-19 18:17:39.399591] |==============================================================================|
+[2024-11-19 18:17:39.399633] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-19 18:17:39.399667] |=========                                                            =========|
+[2024-11-19 18:17:39.399697] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-19 18:17:39.399727] |=========        Computer Science and Engineering Department         =========|
+[2024-11-19 18:17:39.399755] |=========            University of California Santa Cruz             =========|
+[2024-11-19 18:17:39.399784] |=========                                                            =========|
+[2024-11-19 18:17:39.399812] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-19 18:17:39.399840] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-19 18:17:39.399869] |=========                See LICENSE for license info                =========|
+[2024-11-19 18:17:39.399906] |==============================================================================|
+[2024-11-19 18:17:39.399946] ** Start: 11/19/2024 18:17:39
+[2024-11-19 18:17:39.399983] Technology: freepdk45
+[2024-11-19 18:17:39.400017] Total size: 16777216 bits
+[2024-11-19 18:17:39.400060] Word size: 8192
+Words: 2048
+Banks: 1
+[2024-11-19 18:17:39.400100] Write size: 32
+[2024-11-19 18:17:39.400137] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2024-11-19 18:17:39.400184] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-19 18:17:39.400228] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-19 18:17:39.400265] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-11-19 18:17:39.400303] Only generating nominal corner timing.
+[2024-11-19 18:17:39.400353] Words per row: None
+[2024-11-19 18:17:39.400398] Output files are: 
+[2024-11-19 18:17:39.400433] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.lvs
+[2024-11-19 18:17:39.400470] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.sp
+[2024-11-19 18:17:39.400504] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.v
+[2024-11-19 18:17:39.400548] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.lib
+[2024-11-19 18:17:39.400583] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.py
+[2024-11-19 18:17:39.400617] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.html
+[2024-11-19 18:17:39.400652] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.log
+[2024-11-19 18:17:39.400685] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.lef
+[2024-11-19 18:17:39.400724] /home/sh4471/workplace/OpenRAM/./sram_1rw0r0w_8192_2048_freepdk45.gds
+[2024-11-19 18:17:39.411796] [openram.sram_config/recompute_sizes]: Recomputing with words per row: 4
+[2024-11-19 18:17:39.412125] [openram.sram_config/recompute_sizes]: Rows: 512 Cols: 32768
+[2024-11-19 18:17:39.412486] [openram.sram_config/recompute_sizes]: Row addr size: 9 Col addr size: 2 Bank addr size: 11
+[2024-11-19 18:17:39.412766] [openram.sram_config/compute_sizes]: Set SRAM Words Per Row=4
+[2024-11-19 18:17:39.425849] [openram.modules.bitcell_base_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_capped_replica_bitcell_array 512 x 32768
+[2024-11-19 18:17:39.426355] [openram.modules.capped_replica_bitcell_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_capped_replica_bitcell_array 512 x 32768 rbls: [1, 0] left_rbl: [0] right_rbl: []
+[2024-11-19 18:17:39.427187] [openram.modules.bitcell_base_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_replica_bitcell_array 512 x 32768
+[2024-11-19 18:17:39.427809] [openram.modules.replica_bitcell_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_replica_bitcell_array 512 x 32768 rbls: [1, 0] left_rbl: [0] right_rbl: []
+[2024-11-19 18:17:39.428697] [openram.modules.bitcell_base_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_bitcell_array 512 x 32768
+[2024-11-19 18:17:39.429420] [openram.modules.bitcell_array/__init__]: Creating sram_1rw0r0w_8192_2048_freepdk45_bitcell_array 512 x 32768

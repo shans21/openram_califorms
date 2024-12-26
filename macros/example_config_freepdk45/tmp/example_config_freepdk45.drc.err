@@ -1,0 +1,4 @@
+/home/sh4471/workplace/OpenRAM/macros/example_config_freepdk45/tmp/run_drc.sh: 2: source: not found
+
+CondaError: Run 'conda init' before 'conda deactivate'
+

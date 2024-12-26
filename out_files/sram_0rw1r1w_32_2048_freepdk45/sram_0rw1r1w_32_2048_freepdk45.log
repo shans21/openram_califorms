@@ -1,0 +1,154 @@
+[2024-11-24 20:45:27.071152] [openram.globals/init_openram]: Initializing OpenRAM...
+[2024-11-24 20:45:27.071310] [openram.globals/setup_paths]: OpenRAM source code found in /home/sh4471/workplace/OpenRAM/compiler
+[2024-11-24 20:45:27.071467] [openram.globals/setup_paths]: Temporary files saved in /tmp/openram_sh4471_10921_temp/
+[2024-11-24 20:45:27.071671] [openram.globals/read_config]: Configuration file is /home/sh4471/workplace/OpenRAM/sram_configs/sram_config_32_2048.py
+[2024-11-24 20:45:27.072403] [openram.globals/read_config]: Output saved in /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/
+[2024-11-24 20:45:27.072665] [openram.globals/install_conda]: Creating conda setup...
+[2024-11-24 20:45:27.074267] [openram.globals/import_tech]: Tech directory found in /home/sh4471/workplace/OpenRAM/technology:/home/sh4471/anaconda3/lib/python3.12/site-packages/openram/technology
+[2024-11-24 20:45:27.074497] [openram.globals/import_tech]: Adding technology path: /home/sh4471/workplace/OpenRAM/technology
+[2024-11-24 20:45:27.074690] [openram.globals/import_tech]: Adding technology path: /home/sh4471/anaconda3/lib/python3.12/site-packages/openram/technology
+[2024-11-24 20:45:27.076721] [openram.globals/init_paths]: Creating temp directory: /tmp/openram_sh4471_10921_temp/
+[2024-11-24 20:45:27.164014] [openram.globals/setup_bitcell]: Using bitcell: bitcell_2port
+[2024-11-24 20:45:27.690549] [openram.characterizer/<module>]: Initializing characterizer...
+[2024-11-24 20:45:27.698452] [openram.characterizer/<module>]: Analytical model enabled.
+[2024-11-24 20:45:27.706911] [openram.verify/<module>]: Initializing verify...
+[2024-11-24 20:45:27.714655] [openram.verify/<module>]: LVS/DRC/PEX disabled.
+[2024-11-24 20:45:27.715079] [openram.globals/setup_bitcell]: Using bitcell: bitcell_2port
+[2024-11-24 20:45:27.715145] |==============================================================================|
+[2024-11-24 20:45:27.715197] |=========                      OpenRAM v1.2.48                       =========|
+[2024-11-24 20:45:27.715237] |=========                                                            =========|
+[2024-11-24 20:45:27.715274] |=========               VLSI Design and Automation Lab               =========|
+[2024-11-24 20:45:27.715309] |=========        Computer Science and Engineering Department         =========|
+[2024-11-24 20:45:27.715343] |=========            University of California Santa Cruz             =========|
+[2024-11-24 20:45:27.715378] |=========                                                            =========|
+[2024-11-24 20:45:27.715412] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2024-11-24 20:45:27.715448] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2024-11-24 20:45:27.715482] |=========                See LICENSE for license info                =========|
+[2024-11-24 20:45:27.715519] |==============================================================================|
+[2024-11-24 20:45:27.715561] ** Start: 11/24/2024 20:45:27
+[2024-11-24 20:45:27.715599] Technology: freepdk45
+[2024-11-24 20:45:27.715637] Total size: 65536 bits
+[2024-11-24 20:45:27.715679] Word size: 32
+Words: 2048
+Banks: 1
+[2024-11-24 20:45:27.715713] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2024-11-24 20:45:27.715743] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2024-11-24 20:45:27.715772] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2024-11-24 20:45:27.715799] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2024-11-24 20:45:27.715827] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2024-11-24 20:45:27.715855] Only generating nominal corner timing.
+[2024-11-24 20:45:27.715884] Words per row: None
+[2024-11-24 20:45:27.715919] Output files are: 
+[2024-11-24 20:45:27.715948] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.lvs
+[2024-11-24 20:45:27.715985] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.sp
+[2024-11-24 20:45:27.716014] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.v
+[2024-11-24 20:45:27.716042] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.lib
+[2024-11-24 20:45:27.716069] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.py
+[2024-11-24 20:45:27.716096] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.html
+[2024-11-24 20:45:27.716123] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.log
+[2024-11-24 20:45:27.716150] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.lef
+[2024-11-24 20:45:27.716188] /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.gds
+[2024-11-24 20:45:27.725936] [openram.sram_config/recompute_sizes]: Recomputing with words per row: 8
+[2024-11-24 20:45:27.726265] [openram.sram_config/recompute_sizes]: Rows: 256 Cols: 256
+[2024-11-24 20:45:27.726601] [openram.sram_config/recompute_sizes]: Row addr size: 8 Col addr size: 3 Bank addr size: 11
+[2024-11-24 20:45:27.726862] [openram.sram_config/compute_sizes]: Set SRAM Words Per Row=8
+[2024-11-24 20:45:27.739937] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_capped_replica_bitcell_array 256 x 256
+[2024-11-24 20:45:27.740434] [openram.modules.capped_replica_bitcell_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_capped_replica_bitcell_array 256 x 256 rbls: [1, 1] left_rbl: [0] right_rbl: [1]
+[2024-11-24 20:45:27.741242] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_replica_bitcell_array 256 x 256
+[2024-11-24 20:45:27.741837] [openram.modules.replica_bitcell_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_replica_bitcell_array 256 x 256 rbls: [1, 1] left_rbl: [0] right_rbl: [1]
+[2024-11-24 20:45:27.742712] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_bitcell_array 256 x 256
+[2024-11-24 20:45:27.743418] [openram.modules.bitcell_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_bitcell_array 256 x 256
+[2024-11-24 21:12:26.987467] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_replica_column 258 x 1
+[2024-11-24 21:12:27.172459] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_replica_column_0 258 x 1
+[2024-11-24 21:12:27.344183] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dummy_array 1 x 256
+[2024-11-24 21:12:30.495839] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dummy_array_0 1 x 258
+[2024-11-24 21:12:30.702353] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dummy_array_1 1 x 258
+[2024-11-24 21:12:30.909341] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dummy_array_2 260 x 1
+[2024-11-24 21:12:31.082145] [openram.modules.bitcell_base_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dummy_array_3 260 x 1
+[2024-11-24 21:12:31.963801] [openram.modules.and2_dec/__init__]: Creating and2_dec and2_dec
+[2024-11-24 21:12:31.972889] [openram.modules.and3_dec/__init__]: Creating and3_dec and3_dec
+[2024-11-24 21:12:31.993439] [openram.modules.and4_dec/__init__]: Creating and4_dec and4_dec
+[2024-11-24 21:12:32.293983] [openram.modules.wordline_driver_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_wordline_driver_array
+[2024-11-24 21:12:32.294780] [openram.modules.wordline_driver/__init__]: Creating wordline_driver wordline_driver
+[2024-11-24 21:12:32.487747] [openram.modules.and2_dec/__init__]: Creating and2_dec and2_dec_0
+[2024-11-24 21:12:32.664783] [openram.modules.precharge_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_precharge_array
+[2024-11-24 21:12:32.789155] [openram.modules.column_mux_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_column_mux_array
+[2024-11-24 21:12:33.015146] [openram.modules.write_driver_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_write_driver_array
+[2024-11-24 21:12:33.211171] [openram.modules.precharge_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_precharge_array_0
+[2024-11-24 21:12:33.338522] [openram.modules.sense_amp_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_sense_amp_array
+[2024-11-24 21:12:33.363619] [openram.modules.column_mux_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_column_mux_array_0
+[2024-11-24 21:12:33.778349] [openram.modules.pand3/__init__]: Creating pand3 pand3
+[2024-11-24 21:12:33.781876] [openram.modules.pdriver/__init__]: creating pdriver pdriver
+[2024-11-24 21:12:34.165185] [openram.modules.dff_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_row_addr_dff rows=8 cols=1
+[2024-11-24 21:12:34.169868] [openram.modules.dff_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_col_addr_dff rows=1 cols=3
+[2024-11-24 21:12:34.171673] [openram.modules.dff_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_data_dff rows=1 cols=32
+[2024-11-24 21:12:34.184157] [openram.modules.control_logic_base/__init__]: Creating control_logic_w
+[2024-11-24 21:12:34.184840] [openram.modules.dff_buf/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dff_buf
+[2024-11-24 21:12:34.191532] [openram.modules.dff_buf_array/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dff_buf_array
+[2024-11-24 21:12:34.192223] [openram.modules.dff_buf/__init__]: Creating sram_0rw1r1w_32_2048_freepdk45_dff_buf_0
+[2024-11-24 21:12:34.195000] [openram.modules.pand2/__init__]: Creating pand2 pand2
+[2024-11-24 21:12:34.197579] [openram.modules.pdriver/__init__]: creating pdriver pdriver_0
+[2024-11-24 21:12:34.202652] [openram.modules.pbuf/__init__]: creating pbuf with size of 256
+[2024-11-24 21:12:34.236187] [openram.modules.pdriver/__init__]: creating pdriver pdriver_1
+[2024-11-24 21:12:34.257781] [openram.modules.pdriver/__init__]: creating pdriver pdriver_2
+[2024-11-24 21:12:34.273724] [openram.modules.pand3/__init__]: Creating pand3 pand3_0
+[2024-11-24 21:12:34.274481] [openram.modules.pdriver/__init__]: creating pdriver pdriver_3
+[2024-11-24 21:12:34.282000] [openram.modules.pand3/__init__]: Creating pand3 pand3_1
+[2024-11-24 21:12:34.282753] [openram.modules.pdriver/__init__]: creating pdriver pdriver_4
+[2024-11-24 21:12:34.289718] [openram.modules.pdriver/__init__]: creating pdriver pdriver_5
+[2024-11-24 21:12:34.294677] [openram.modules.delay_chain/__init__]: creating delay chain [4, 4, 4, 4, 4, 4, 4, 4, 4]
+[2024-11-24 21:12:34.322783] [openram.modules.control_logic_base/__init__]: Creating control_logic_r
+[2024-11-24 21:12:34.335521] ** Submodules: 1626.6 seconds
+[2024-11-24 21:12:34.360469] ** Placement: 0.0 seconds
+[2024-11-24 21:19:16.853205] [openram.base.hierarchy_layout/get_bbox]: Size: 398.64000000000004 x 448.17 with perimeter margin 0
+[2024-11-24 21:19:17.069570] [openram.router.router_tech/__init__]: Minimum track width: 0.280
+[2024-11-24 21:19:17.070097] [openram.router.router_tech/__init__]: Minimum track space: 0.140
+[2024-11-24 21:19:17.070588] [openram.router.router_tech/__init__]: Minimum track wire width: 0.140
+[2024-11-24 21:19:17.071002] [openram.router.signal_escape_router/route]: Running signal escape router...
+[2024-11-24 21:21:57.812332] ** Routing: 563.5 seconds
+[2024-11-24 21:21:57.816491] ** Verification: 0.0 seconds
+[2024-11-24 21:21:57.816588] ** SRAM creation: 2190.1 seconds
+[2024-11-24 21:21:57.816640] SP: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.sp
+[2024-11-24 21:21:58.789715] [openram.characterizer.functional/__init__]: Random seed for functional simulation: 1732483318789262420
+[2024-11-24 21:21:58.838744] ** Spice writing: 1.0 seconds
+[2024-11-24 21:21:58.838838] DELAY: Writing stimulus...
+[2024-11-24 21:22:02.752658] [openram.characterizer.delay/create_sen_and_bitline_path_measures]: self.bl_name = xsram_0rw1r1w_32_2048_freepdk45.xbank0.bl_1_255
+[2024-11-24 21:22:02.755739] ** DELAY: 3.9 seconds
+[2024-11-24 21:22:03.740214] GDS: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.gds
+[2024-11-24 21:22:05.198662] ** GDS: 1.5 seconds
+[2024-11-24 21:22:05.198779] LEF: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.lef
+[2024-11-24 21:22:05.212828] ** LEF: 0.0 seconds
+[2024-11-24 21:22:05.212902] LVS: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.lvs.sp
+[2024-11-24 21:22:06.187770] ** LVS writing: 1.0 seconds
+[2024-11-24 21:22:06.187883] LIB: Characterizing... 
+[2024-11-24 21:22:06.188966] [openram.characterizer.lib/prepare_tables]: Slews: [0.00125 0.005   0.04   ]
+[2024-11-24 21:22:06.189644] [openram.characterizer.lib/prepare_tables]: Loads: [0.052275 0.2091   0.8364  ]
+[2024-11-24 21:22:06.190136] [openram.characterizer.lib/prepare_tables]: self.load_slews : [(np.float64(0.052275), np.float64(0.00125)), (np.float64(0.2091), np.float64(0.00125)), (np.float64(0.8364), np.float64(0.00125)), (np.float64(0.052275), np.float64(0.005)), (np.float64(0.2091), np.float64(0.005)), (np.float64(0.8364), np.float64(0.005)), (np.float64(0.052275), np.float64(0.04)), (np.float64(0.2091), np.float64(0.04)), (np.float64(0.8364), np.float64(0.04))]
+[2024-11-24 21:22:06.190534] [openram.characterizer.lib/characterize_corners]: Characterizing corners: [('TT', 1.0, 25)]
+[2024-11-24 21:22:06.190916] [openram.characterizer.lib/characterize_corners]: Corner: ('TT', 1.0, 25)
+[2024-11-24 21:22:06.191339] [openram.characterizer.lib/characterize_corners]: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45_TT_1p0V_25C.lib
+[2024-11-24 21:22:06.192142] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2024-11-24 21:22:09.623947] [openram.characterizer.elmore/analytical_power]: Dynamic Power: 16.00776785228618 mW
+[2024-11-24 21:22:09.624577] [openram.characterizer.elmore/analytical_power]: Leakage Power: 0.067917 mW
+[2024-11-24 21:22:09.625104] [openram.characterizer.elmore/get_lib_values]: Slew, Load, Delay(ns), Slew(ns)
+[2024-11-24 21:22:09.626027] [openram.characterizer.elmore/get_lib_values]: 0.00125, 0.052275, 0.3981089776238619, 0.000716101171875
+[2024-11-24 21:22:09.626854] [openram.characterizer.elmore/get_lib_values]: 0.00125, 0.2091, 0.3983295127801119, 0.0007381546875
+[2024-11-24 21:22:09.627595] [openram.characterizer.elmore/get_lib_values]: 0.00125, 0.8364, 0.39921165340511194, 0.00082636875
+[2024-11-24 21:22:09.628324] [openram.characterizer.elmore/get_lib_values]: 0.005, 0.052275, 0.3981089776238619, 0.000716101171875
+[2024-11-24 21:22:09.629060] [openram.characterizer.elmore/get_lib_values]: 0.005, 0.2091, 0.3983295127801119, 0.0007381546875
+[2024-11-24 21:22:09.629802] [openram.characterizer.elmore/get_lib_values]: 0.005, 0.8364, 0.39921165340511194, 0.00082636875
+[2024-11-24 21:22:09.630553] [openram.characterizer.elmore/get_lib_values]: 0.04, 0.052275, 0.3981089776238619, 0.000716101171875
+[2024-11-24 21:22:09.631306] [openram.characterizer.elmore/get_lib_values]: 0.04, 0.2091, 0.3983295127801119, 0.0007381546875
+[2024-11-24 21:22:09.632046] [openram.characterizer.elmore/get_lib_values]: 0.04, 0.8364, 0.39921165340511194, 0.00082636875
+[2024-11-24 21:22:09.636463] ** Characterization: 3.4 seconds
+[2024-11-24 21:22:09.636622] Config: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.py
+[2024-11-24 21:22:09.636671] ** Config: 0.0 seconds
+[2024-11-24 21:22:09.637419] Datasheet: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.html
+[2024-11-24 21:22:09.638678] ** Datasheet: 0.0 seconds
+[2024-11-24 21:22:09.638738] Verilog: Writing to /home/sh4471/workplace/OpenRAM/out_files/sram_0rw1r1w_32_2048_freepdk45/sram_0rw1r1w_32_2048_freepdk45.v
+[2024-11-24 21:22:09.638882] ** Verilog: 0.0 seconds
+[2024-11-24 21:22:09.640007] [openram.globals/purge_temp]: Purging temp directory: /tmp/openram_sh4471_10921_temp/
+[2024-11-24 21:22:09.643872] ** End: 2201.9 seconds

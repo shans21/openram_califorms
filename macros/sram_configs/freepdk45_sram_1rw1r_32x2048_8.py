@@ -1,6 +1,6 @@
 word_size = 32
 num_words = 2048
-write_size = 8
+write_size = 328
 
 local_array_size = 32
 
